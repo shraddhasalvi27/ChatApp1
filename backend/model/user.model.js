@@ -1,6 +1,6 @@
 import mongoose from "mongoose"
 
-const userSchema = new Schema({
+const userSchema = new mongoose.Schema({
     fullname:{
         type:String,
         required:true
@@ -15,8 +15,7 @@ const userSchema = new Schema({
         required:true
     },
     confirmPassword:{
-        type:String,
-        required:true
+        type:String
     }
 
 },{timeStamp:true});
