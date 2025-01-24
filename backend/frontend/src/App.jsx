@@ -13,8 +13,9 @@ function App() {
   console.log(authUser);
   return (
     <>
+      <Navbar/>
       <Routes>
-        <Navbar/>
+        
         <Route
           path="/"
           element={
