@@ -1,14 +1,12 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import {Link} from 'react-router-dom';
 
 const Navbar = () => {
   return (
-    <header className="bg-blue-500 p-4">
+    <header>
       <div className="flex justify-between items-center max-w-7xl mx-auto">
-        <Link to="/" className="flex items-center">
           <img src="/ChatAppLogo.png" alt="Logo" className="h-10 w-auto" />
           <span className="ml-2 font-bold text-white text-xl">Panchat</span>
-        </Link>
       </div>
     </header>
   );
